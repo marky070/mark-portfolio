@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark Lemuel Torres Regalado - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #f0f0f0;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: rgba(17, 24, 39, 0.9);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    header {
+      text-align: center;
+      padding: 6rem 2rem 4rem;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    header img {
+      width: 320px;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-top: 2rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      margin-bottom: 2rem;
+      padding: 2rem;
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    h2 {
+      color: #ffffff;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #60a5fa;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px 6px;
+      font-size: 0.9rem;
+    }
+
+    .certs img:hover {
+      transform: scale(1.05);
+      transition: 0.3s ease;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(17, 24, 39, 0.8);
+      color: white;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header id="about">
+    <h1>Mark Lemuel Torres Regalado</h1>
+    <p>Customer Service Professional | Data Support | Remote Specialist</p>
+    <img src="https://i.imgur.com/K1JBDXC.png" alt="Profile Photo">
+  </header>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>📞 0961-438-5211<br>
+       📧 <a href="mailto:123mark.va@gmail.com" style="color:#93c5fd">123mark.va@gmail.com</a><br>
+       📍 Valenzuela City, Philippines</p>
+  </section>
+
+  <section class="section">
+    <h2>Professional Summary</h2>
+    <p>Customer service professional with 4 years of BPO experience handling healthcare, telecommunications, and utility accounts. Skilled in communication, admin support, and data entry. Known for being a fast learner and able to work under minimal supervision. Seeking a full-time or seasonal remote role in a customer-focused environment.</p>
+  </section>
+
+  <section class="section" id="experience">
+    <h2>Work Experience</h2>
+    <ul>
+      <li><strong>Wipro Philippines – Molina Healthcare</strong> (Aug 2024 – Feb 2025)<br>Production Specialist – Processed patient healthcare data with HIPAA compliance, performed accurate documentation, and handled confidential data.</li>
+      <li><strong>AFNI Philippines, Inc – Verizon</strong> (May 2024 – Aug 2024)<br>Customer Service – Addressed billing concerns, supported customers with digital tools, and maintained account KPIs with efficient turnaround.</li>
+      <li><strong>24/7 InTouch Philippines</strong> (Jul 2021 – Jan 2022)<br>Customer Experience – Handled real estate client inquiries, updated CRM, followed up leads via email/phone, and processed application requests.</li>
+      <li><strong>Inspiro Relia Inc.</strong> (Jun 2020 – Jul 2021)<br>Live Chat Support – Assisted customers with real-time order tracking, processed online payments, resolved support tickets, and upsold service bundles.</li>
+    </ul>
+  </section>
+
+  <section class="section skills" id="skills">
+    <h2>Skills</h2>
+    <span>Excellent verbal/written communication</span>
+    <span>Customer service</span>
+    <span>CRM tools (Salesforce, Zendesk)</span>
+    <span>Admin support</span>
+    <span>Data entry</span>
+    <span>Problem solving</span>
+    <span>Time management</span>
+    <span>Fast learner</span>
+  </section>
+
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>St. Bernadette College of Valenzuela</strong> – Senior High School (2019 – 2020)<br>📍 6121 Gen. T. de Leon St., Barangay Gen. T. de Leon, Valenzuela City, Metro Manila 1440</li>
+      <li><strong>Valenzuela National High School</strong> – Junior High School (2017 – 2018)<br>📍 A. Fernando Street, Barangay Marulas, Valenzuela City, Metro Manila</li>
+      <li><strong>Marulas Central School</strong> – Primary (2011 – 2012)<br>📍 Pio Valenzuela Street, Barangay Marulas, Valenzuela City, Metro Manila 1440</li>
+    </ul>
+  </section>
+
+  <section class="section" id="certifications">
+    <h2>Certifications</h2>
+    <div class="certs" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+      <div style="flex: 1 1 300px;">
+        <h3>Training Certificate 1</h3>
+        <a href="https://i.imgur.com/jOXVoGF.png" target="_blank">
+          <img src="https://i.imgur.com/jOXVoGF.png" alt="Certificate 1" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+        </a>
+      </div>
+
+      <div style="flex: 1 1 300px;">
+        <h3>Wipro Training Certificate</h3>
+        <a href="https://i.imgur.com/evyCdlP.png" target="_blank">
+          <img src="https://i.imgur.com/evyCdlP.png" alt="Wipro Certificate" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+        </a>
+      </div>
+
+      <div style="flex: 1 1 300px;">
+        <h3>24/7 Intouch Certificate</h3>
+        <a href="https://i.imgur.com/QADHvtW.png" target="_blank">
+          <img src="https://i.imgur.com/QADHvtW.png" alt="Certificate 3" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+        </a>
+        <p style="font-size: 0.9rem; color: #ddd;">Role: Customer Experience Representative – Real estate inquiries, live support and CRM logging.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Portfolio Website © 2025 | Mark Lemuel Regalado</p>
+  </footer>
+</body>
+</html>
